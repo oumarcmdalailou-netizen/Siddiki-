@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Perso - Ngaoundéré</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        nav {
+            background: #34495e;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+        
+        .section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+        
+        .competences {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .tag {
+            background: #ecf0f1;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            nav a { display: block; margin: 10px 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ton Nom Ici</h1>
+        <p>Développeur Web | Ngaoundéré, Cameroun</p>
+    </header>
+    
+    <nav>
+        <a href="#apropos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="container">
+        <section id="apropos" class="section">
+            <h2>À propos de moi</h2>
+            <p>Salut ! Je suis passionné par le web et la technologie. Je crée des sites depuis mon téléphone Android à Ngaoundéré.</p>
+            <p>Je cherche actuellement des opportunités pour apprendre et collaborer sur des projets web.</p>
+            <a href="#contact" class="btn">Me contacter</a>
+        </section>
+        
+        <section id="competences" class="section">
+            <h2>Mes compétences</h2>
+            <div class="competences">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Python</span>
+                <span class="tag">Acode</span>
+                <span class="tag">GitHub</span>
+            </div>
+        </section>
+        
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Tu veux discuter d'un projet ? Contacte-moi :</p>
+            <p><strong>WhatsApp :</strong> +237 6XX XX XX XX</p>
+            <p><strong>Email :</strong> tonemail@gmail.com</p>
+            <p><strong>GitHub :</strong> github.com/tonpseudo</p>
+            <a href="https://wa.me/237600000000" class="btn">Message WhatsApp</a>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2026 Ton Nom. Fait avec ❤️ depuis Android.</p>
+    </footer>
+</body>
+</html>
